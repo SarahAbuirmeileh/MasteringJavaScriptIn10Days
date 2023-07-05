@@ -1,6 +1,10 @@
-# Before I got access to FrontendMasters courses, I started my journey 💻🔥
+# 💎 Day 0 💎
+<br>
 
-# Coding Exercises for 113 challenges 🔥
+## 🔥 Before I got access to FrontendMasters courses, I started my journey 💻🔥
+<br>
+
+## Coding Exercises for 113 challenges 🔥
 1. [Comment Your JavaScript Code](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/comment-your-javascript-code)
 
 My Solution:
