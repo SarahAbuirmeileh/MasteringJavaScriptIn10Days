@@ -1,7 +1,9 @@
 # Gaza Sky Geeks Learning Sprint - 20-Day Learning JavaScript Challenge 🚀🔥
 
-### Welcome to my 20-Day Learning JavaScript Challenge! 💻🔥
-In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'll explore different aspects of JavaScript, building a solid foundation and gaining hands-on experience through practical exercises and projects.🔍📚
+## Welcome to my 20-Day Learning JavaScript Challenge! 💻🔥
+Brace yourself for a mind-blowing experience where JavaScript transcends its boundaries, revealing its hidden secrets and captivating intricacies 🌊🌟
+
+With each passing day, witness your JavaScript prowess soar to new heights as we navigate through an enthralling curriculum. Let the harmonious blend of theory and practice sculpt your skills, empowering you to create mesmerizing projects that will leave a lasting impact. 🔬🎨
 
 ### I'm ready to discover the secrets of JavaScript! 🚀🔥
 
@@ -41,24 +43,44 @@ In this challenge, I'll enhance my JavaScript skills and knowledge. Each day, I'
 * Celebrate your achievements and reflect on your growth throughout the challenge.
 
 ## Folder Structure 🔥
-[Day 0]()
-[Day 1]()
-[Day 2]()
-[Day 3]()
-[Day 4]()
-[Day 5]()
-[Day 6]()
-[Day 7]()
-[Day 8]()
-[Day 9]()
-[Day 10]()
-[Day 11]()
-[Day 12]()
-[Day 13]()
-[Day 14]()
-[Day 15]()
-[Day 16]()
-[Day 17]()
-[Day 18]()
-[Day 19]()
-[Day 20]()
+[Day 0 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%200%20.md) 
+
+[Day 1 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%201%20.md)
+
+[Day 2 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%202%20.md)
+
+[Day 3 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%203%20.md)
+
+[Day 4 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%204%20.md)
+
+[Day 5 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%205%20.md)
+
+[Day 6 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%206%20.md)
+
+[Day 7 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%207%20.md)
+
+[Day 8 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%208%20.md)
+
+[Day 9 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%209%20.md)
+
+[Day 10 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%210%20.md)
+
+[Day 11 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%211%20.md)
+
+[Day 12 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%212%20.md)
+
+[Day 13 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%213%20.md)
+
+[Day 14 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%214%20.md)
+
+[Day 15 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%215%20.md)
+
+[Day 16 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%216%20.md)
+
+[Day 17 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%217%20.md)
+
+[Day 18 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%218%20.md)
+
+[Day 19 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%219%20.md)
+
+[Day 20 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%220%20.md)
