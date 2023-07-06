@@ -229,6 +229,77 @@ for (let b of optionButtons){
 <br>
 <br>
 
+## map & filter: 🌟🌠
+The map & filter methods also let us process all the items in an array
+
+### map : 🗺️🌐
+ Calls a function on each item in an array to create a new array
+ ```javaScript
+const spices = [
+    {name: "Emma", nickname: "Baby"},
+    {name: "Geri", nickname: "Ginger"},
+    {name: "Mel B", nickname: "Scary"},
+    {name: "Mel C", nickname: "Sporty"},
+    {name: "Victoria", nickname: "Posh"}
+];
+const nicknames = spices.map(s => `${s.nickname} Spice`;);
+
+/*
+	[
+	  'Baby Spice',
+	  'Ginger Spice',
+	  'Scary Spice',
+	  'Sporty Spice',
+	  'Posh Spice'
+	]
+*/
+```
+
+<br>
+
+### filter : 🫧🪐
+Calls a true/false function on each item and creates a new array with only the items where the function returns true 
+```javaScript
+const mels = spices.filter(s => s.name.includes("Mel"));
+```
+<br>
+
+### Exercise: ⏰🔍
+```javaScript
+/* From the spices array, use map and filter to:
+
+create a new array names with only the name of each girl
+create a new array endInY with just the girls whose nickname ends in "y" */
+
+const spices = [
+    {name: "Emma", nickname: "Baby"},
+    {name: "Geri", nickname: "Ginger"},
+    {name: "Mel B", nickname: "Scary"},
+    {name: "Mel C", nickname: "Sporty"},
+    {name: "Victoria", nickname: "Posh"}
+];
+
+const names = spices.map(s=>s.name)
+const endInY = spices.filter(s=>s.nickname.endsWith("y"))
+```
+
+<br>
+<br>
+
+### Spread (...): 💎🔮
+It lets us take all the items in an array and spread 'em around
+```javaScript
+const oldBurns = ["square", "wack"];
+const newBurns = ["basic", "dusty", "sus"];
+
+const burnBook = [...oldBurns, ...newBurns];
+// equivalent to
+const burnBook = oldBurns.concat(newBurns);
+```
+
+<br>
+<br>
+
 ## Doggo Fetch Project  🧐🪩
 ```javaScript
 <!DOCTYPE html>
