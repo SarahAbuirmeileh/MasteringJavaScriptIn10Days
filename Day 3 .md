@@ -105,7 +105,7 @@
     // explanation should be the "explanation" div
 
     const statement = document.getElementById("statement")
-    const optionButtons = document.getElementById("options")
+    const optionButtons = document.querySelector("#options").children
     const explanation = document.getElementById("explanation")
 
 
@@ -115,7 +115,7 @@
     let fact = {
         statement : "Sarah is the queen of programming",
         answer : true,
-        explanation : " Sarah possesses exceptional skills and expertise in the field of programming, she possesses a deep understanding of programming concepts and she is a highly skilled programmer who can tackle complex problems and create innovative solutions."
+        explanation :  " Sarah possesses exceptional skills and expertise in the field of programming, she is a highly skilled programmer who can tackle complex problems and create innovative solutions."
     }
 
     
@@ -139,22 +139,39 @@
     // TODO 5: Declare an isCorrect function that compares a guess to the right answer
     // isCorrect(guess) should return true if the guess matches the fact's answer
     
-    const isCorrect = guess =>{ guess === fact.answer.toString()}
+    const isCorrect = guess =>{ return guess === fact.answer.toString()}
 
 
     // TODO 6A: Use a for loop to add a click event listener to each of the optionButtons
+    for (let b of optionButtons){
+        b.addEventListener("click", event =>{
+            
+        
+    
             // TODO 6B: Within the event handler function, display the fact's explanation by setting the text of the explanation element
-
+            
+            explanation.textContent = fact.explanation
 
             // TODO 7: Within the event handler function, 
             // Use a for loop to disable all the option buttons
 
+            for (let allB of optionButtons)
+                disable(allB)
+        
 
             // TODO 8: Within the event handler function,
             // Get the guessed value from the clicked button
             // Use a conditional to compare the guess to the fact's answer
             // and add the "correct"/"incorrect" class as appropriate
 
+            if (isCorrect(b.value)){
+                b.classList.add("correct")
+            }else{
+                b.classList.add("incorrect")
+            }
+
+        })
+    }
     
 
   </script>
