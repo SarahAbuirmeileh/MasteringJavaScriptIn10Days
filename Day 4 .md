@@ -303,7 +303,7 @@ const burnBook = oldBurns.concat(newBurns);
 ## Doggo Fetch Project  🧐🪩
 ```javaScript
 <!DOCTYPE html>
-<!-- saved from url=(0067)https://anjana.dev/javascript-first-steps/3-doggofetch-starter.html -->
+<!-- saved from url=(0068)https://anjana.dev/javascript-first-steps/3-doggofetch-finished.html -->
 <html lang="en-US"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     
     <title>Doggo Fetch</title>
@@ -364,10 +364,9 @@ const burnBook = oldBurns.concat(newBurns);
     </header>
 
     <main>
-    <div id="image-frame">
-    </div>
+    <div id="image-frame"><img src="./Final_files/PXL_20210220_100624962.jpg"></div>
     <div id="options">
-    </div>
+    <button name="medium poodle" value="medium poodle" class="correct">medium poodle</button><button name="australian terrier" value="australian terrier" class="incorrect">australian terrier</button><button name="french bulldog" value="french bulldog">french bulldog</button></div>
 
     </main>
 
@@ -399,15 +398,15 @@ const burnBook = oldBurns.concat(newBurns);
     // return a list of that many choices, including the correct answer and others from the array
     function getMultipleChoices(n, correctAnswer, array) {
         // Use a while loop and the getRandomElement() function
-        const choices= [correctAnswer]
-        while(choices.length<n){
-            const candidate = getRandomElement(array)
-            if(!choices.includes(candidate))
-                choices.push(candidate)
-        }
         // Make sure there are no duplicates in the array
-        return  shuffleArray(choices)
-
+        const choices = [correctAnswer];
+        while (choices.length < n) {
+            let candidate = getRandomElement(array);
+            if (choices.indexOf(candidate) < 0) { // check if this is already in the array
+                choices.push(candidate); // if not, add it
+            }
+        }
+        return shuffleArray(choices);
     }
 
     
@@ -417,7 +416,10 @@ const burnBook = oldBurns.concat(newBurns);
     function getBreedFromURL(url) {
         // The string method .split(char) may come in handy
         // Try to use destructuring as much as you can
-        
+        const [,path] = url.split("/breeds/");
+        const [breedID] = path.split("/");
+        const [breed, subtype] = breedID.split("-");
+        return [subtype, breed].join(" ");
     }
 
 
@@ -427,7 +429,9 @@ const burnBook = oldBurns.concat(newBurns);
     // then parse the response as a JSON object,
     // finally return the "message" property of its body
     async function fetchMessage(url) {
-        
+        const response = await fetch(url);  // Fetch the resource at the given URL
+        const {message} = await response.json(); // Parse the response as JSON & remember its 'message' value
+        return message; // Return the message
     }
 
 
@@ -452,7 +456,12 @@ const burnBook = oldBurns.concat(newBurns);
         // Create a button element whose name, value, and textContent properties are the value of that choice,
         // attach a "click" event listener with the buttonHandler function,
         // and append the button as a child of the options element
-        
+        choicesArray.map(choice => {
+            let button = document.createElement("button");
+            button.value = button.name = button.textContent = choice;
+            button.addEventListener("click", buttonHandler);
+            options.appendChild(button);
+        })
     }
 
 
@@ -484,7 +493,8 @@ const burnBook = oldBurns.concat(newBurns);
     // TODO 5
     // Asynchronously call the loadQuizData() function,     
     // Then call renderQuiz() with the returned imageUrl, correctAnswer, and choices 
-    
+    const [imageUrl, correctAnswer, choices] = await loadQuizData();
+    renderQuiz(imageUrl, correctAnswer, choices);
     
 
 
