@@ -71,7 +71,82 @@ h() // erorr
 <br>
 <br>
 
-#ises for challenges: 🔥💪
+## Scope & Function Expressions 🎨🌊
+
+### Function expression 🔮🫧
+
+```javaScript
+let fun1 = function fun2(){
+    console.log("Sarah")
+}
+
+fun1() //Sarah
+fun2() //ReferenceError
+```
+
+### Named Function Expressions: Benefits 💫💭
+
+1. Reliable function self-reference (recursion, etc)
+2. More debuggable stack traces
+3. More self-documenting code
+
+### Exercises🍄🍃
+
+```javaScript
+/*
+You are provided three functions stubs -- `printRecords(..)`, `paidStudentsToEnroll()`, and `remindUnpaid(..)` -- which you must define.
+
+At the bottom of the file you will see these functions called, and a code comment indicating what the console output should be.
+
+1. `printRecords(..)` should:
+	- take a list of student Ids
+	- retrieve each student record by its student Id (hint: array `find(..)`)
+	- sort by student name, ascending (hint: array `sort(..)`)
+	- print each record to the console, including `name`, `id`, and `"Paid"` or `"Not Paid"` based on their paid status
+
+2. `paidStudentsToEnroll()` should:
+	- look through all the student records, checking to see which ones are paid but **not yet enrolled**
+	- collect these student Ids
+	- return a new array including the previously enrolled student Ids as well as the to-be-enrolled student Ids (hint: spread `...`)
+
+3. `remindUnpaid(..)` should:
+	- take a list of student Ids
+	- filter this list of student Ids to only those whose records are in unpaid status
+	- pass the filtered list to `printRecords(..)` to print the unpaid reminders
+*/
+
+function printRecords(studentId) {
+    return studentRecords.find(function getById(student) {
+        return student.id === studentId
+    })
+}
+
+
+function paidStudentsToEnroll() {
+    const studentsToEnroll = studentRecords.filter(function needToEnroll(student) {
+        return (student.paid && !student.currentEnrollment.includes(record.id))
+        // checks if the id of the current record is not already present in the currentEnrollment array
+    })
+
+    return [...currentEnrollment, ...studentsToEnroll.map(function getIId(student) {
+        return student.id
+    })]
+}
+
+function remindUnpaid(recordIds) {
+	const unpaidIds = recordIds.filter(function notPaidYet(studentId){
+		const record = getStudentFromId(studentId);
+		return !record.paid;
+	});
+
+	printRecords(unpaidIds);
+}
+```
+
+<br>
+<br>
+
+#  Coding Exercises for challenges: 🔥💪
 1. [Use typeof to Check the Type of a Variable](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/use-typeof-to-check-the-type-of-a-variable)
    
 My solution:
