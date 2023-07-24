@@ -146,6 +146,16 @@ function remindUnpaid(recordIds) {
 <br>
 <br>
 
+   
+## Functional Programming🔥💫
+<br>
+
+> ### 📝Note:
+>  Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. 
+
+<br>
+<br>
+
 #  Coding Exercises for challenges: 🔥💪
 1. [Use typeof to Check the Type of a Variable](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/use-typeof-to-check-the-type-of-a-variable)
    
