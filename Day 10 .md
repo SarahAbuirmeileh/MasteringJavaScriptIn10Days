@@ -177,6 +177,90 @@ Modules encapsulate data and behavior (methods) together. The state (data) of a 
  <br>
  <br>
 
+    
+## Prototypes 🌌⚡️ 
+
+<br>
+
+> ### 🪐Notes:
+> 1. Objects are built by "constructor calls" (via new)
+> 2. A "constructor call" makes an object “❌based on❌” its own prototype
+> A "constructor call" makes an object “✅linked to✅” its own prototype
+
+<br>
+
+### example: 🪄💭
+![Screenshot from 2023-07-24 08-58-28](https://github.com/SarahAbuirmeileh/test/assets/127017088/a756f3aa-5ac8-4428-b281-176049ceed39)
+
+
+<br>
+
+
+### Explaintion: 🔎🔮
+
+![Screenshot from 2023-07-24 08-58-36](https://github.com/SarahAbuirmeileh/test/assets/127017088/73e412b3-26ea-4ce2-b4b2-e61d4b220144)
+
+<br>
+
+> ### Explaining: ✨🎨
+> when we add ask to prototype, it’s added to the prototype object
+> when we creat deepJS we didn’t copy the prototype  of workshop insted it has a link to it, if we try to access sth isn;t exist in the deepJS it search in workShop if not exist it search in > the JS main prototype (inside of it there is toString())
+
+
+<br>
+
+## Clarifying Inheritance:☄️🌍
+<br>
+In c++ & Java
+
+<br>
+
+![Screenshot from 2023-07-24 09-52-37](https://github.com/SarahAbuirmeileh/test/assets/127017088/20443b1d-0678-4851-85a8-1f6205bcd5de)
+
+<br>
+
+in JS
+
+![Screenshot from 2023-07-24 09-53-15](https://github.com/SarahAbuirmeileh/test/assets/127017088/97518be4-993f-44e1-b15f-86f9f4e6aa6b)
+
+   <br>
+
+> ### 💻Note:
+> **OLOO:** 🔥 
+> Objects Linked to Other Objects
+
+   <br>
+
+   <br>
+   
+## types✨☄️
+
+[more details and information](https://github.com/getify/Typl)
+
+<br>
+
+### Motivations to use TS 👩🏻‍💻🤔
+
+1. Only standard JS syntax
+2. Compiler and Runtime (both optional)
+3. Completely configurable (ie, ESLint)
+4. Main focus: inferring or annotating
+values; Optional: "static typing"
+5. With the grain of JS, not against it
+
+<br>
+<br>
+
+   
+## Functional Programming🔥💫
+<br>
+
+> ### 📝Note:
+>  Functional programming is a good habit. It keeps your code easy to manage, and saves you from sneaky bugs. 
+
+<br>
+<br>
+
 ## Coding Exercises for challenges: 🔥💪
 1. [Catch Off By One Errors When Using Indexing](https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/debugging/catch-off-by-one-errors-when-using-indexing)
 
