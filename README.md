@@ -63,24 +63,24 @@ With each passing day, witness your JavaScript prowess soar to new heights as we
 
 [Day 9 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%209%20.md)
 
-[Day 10 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%210%20.md)
+[Day 10 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2010%20.md)
 
-[Day 11 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%211%20.md)
+[Day 11 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2011%20.md)
 
-[Day 12 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%212%20.md)
+[Day 12 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2012%20.md)
 
-[Day 13 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%213%20.md)
+[Day 13 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2013%20.md)
 
-[Day 14 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%214%20.md)
+[Day 14 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2014%20.md)
 
-[Day 15 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%215%20.md)
+[Day 15 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2015%20.md)
 
-[Day 16 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%216%20.md)
+[Day 16 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2016%20.md)
 
-[Day 17 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%217%20.md)
+[Day 17 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2017%20.md)
 
-[Day 18 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%218%20.md)
+[Day 18 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2018%20.md)
 
-[Day 19 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%219%20.md)
+[Day 19 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2019%20.md)
 
-[Day 20 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%220%20.md)
+[Day 20 🔥💎](https://github.com/SarahAbuirmeileh/Mastering-JavaScript-in-20-Days/blob/main/Day%2020%20.md)
